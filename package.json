@@ -1,0 +1,28 @@
+{
+  "name": "tslab",
+  "version": "1.0.0",
+  "description": "TypeScript stuff",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec --compilers ts:ts-node/register 'src/**/*.test.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bastienmichaux/tslab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bastienmichaux/tslab/issues"
+  },
+  "homepage": "https://github.com/bastienmichaux/tslab#readme",
+  "devDependencies": {
+    "@types/chai": "~4.1.4",
+    "@types/mocha": "~5.2.5",
+    "chai": "~4.1.2",
+    "ts-node": "~7.0.1",
+    "typescript": "~3.0.3"
+  }
+}
